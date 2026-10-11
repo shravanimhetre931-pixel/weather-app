@@ -1,0 +1,54 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #1e2033;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app { width: 90%; max-width: 380px; }
+
+h1 { font-size: 1.8rem; margin-bottom: 16px; }
+h1 span { display: block; font-size: 0.9rem; color: #ff9500; font-weight: normal; }
+
+form { display: flex; gap: 8px; }
+
+input {
+  flex: 1;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2b2d45;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #ff9500;
+  color: #1e2033;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:active { transform: scale(0.95); }
+
+#message { min-height: 24px; margin: 12px 0; color: #ffb547; }
+
+.card {
+  background: #2b2d45;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+.card h2 { font-size: 1.3rem; }
+.temp { font-size: 3.5rem; font-weight: bold; margin: 8px 0; }
+.wind, .coords { color: #a9adc8; }
+
+.hidden { display: none; }
